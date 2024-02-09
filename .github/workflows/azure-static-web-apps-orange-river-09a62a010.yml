@@ -16,7 +16,10 @@ jobs:
     name: Build and Deploy Job
     steps:
       - uses: actions/checkout@v3
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
         with:
+          node-version: '20'  # Update this to the desired Node.js version
           submodules: true
           lfs: false
       - name: Build And Deploy
