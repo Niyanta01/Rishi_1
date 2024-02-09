@@ -11,6 +11,22 @@ import BG5 from './Backgrounds/Bg5';
 
 
 function App() {
+    // scrollToSection = () => {
+    //     // Replace 'your-section-id' with the ID of the element you want to scroll to
+    //     const targetElement = document.getElementById('bg2');
+      
+    //     if (targetElement) {
+    //       // Get the top position of the target element
+    //       const targetPosition = targetElement.getBoundingClientRect().top + window.scrollY;
+      
+    //       // Scroll smoothly to the target element with an offset of 400 pixels
+    //       window.scrollTo({
+    //         top: targetPosition + 400,
+    //         behavior: 'smooth',
+    //       });
+    //     }
+    // };
+    
     return(
         <div>
             <Header />           

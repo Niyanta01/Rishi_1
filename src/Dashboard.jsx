@@ -10,16 +10,6 @@ function Dashboard() {
     //code
     window.onscroll = function() {Scroll()};
     
-    // function openForm() {
-    //     document.getElementById("login-form").style.display = "block";
-    //   }
-      
-    //   function closeForm() {
-    //     document.getElementById("login-form").style.display = "none";
-    //   }
-
-
-
     const [showPopup, setShowPopup] = useState(false);
 
   const openPopup = () => {
@@ -59,13 +49,3 @@ function Dashboard() {
 };
 
 export default Dashboard;
-
-
-
-/* elements:
-    <img> Logo
-    <button> 6 buttons
-        one button gets a drag down
-        one button gets a img/logo
-            popup page that displays log in info page
-*/

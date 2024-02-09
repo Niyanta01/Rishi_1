@@ -39,7 +39,8 @@ body {
 }
 
 .bg2 {
-    background-image: url("https://images.wondershare.com/virtulook/articles/random-background-generator-11.jpg");
+    /* background-image: url("https://images.wondershare.com/virtulook/articles/random-background-generator-11.jpg"); */
+    background-color: #012527;
     height: 210vh; /* 100% of the viewport height */
     width: 100vw; /* 100% of the viewport width */
     margin: 0;
@@ -68,7 +69,8 @@ body {
     max-width: 300px; /* Set your desired maximum width */
     max-height: 700px;
     padding: 20px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
+    position: grid;
     text-align: left;
     /* justify-content: center; */
 }
@@ -98,7 +100,7 @@ body {
     text-align: center;
     margin: -100px 0px 0px 0px;
 
-    background: linear-gradient(to right, #ca0ed4, #031638);
+    background: linear-gradient(to right, #ca0ed4, #fa6305);
     -webkit-background-clip: text;
     color: transparent;
     /* justify-content: center; */
@@ -161,6 +163,7 @@ body {
 
 .bg4 .header {
     font-size: 20pt;
+    color: whitesmoke;
     height: 225px;
     width: 800px;
     /* border: 10px solid rgb(94, 33, 94); */
@@ -203,13 +206,35 @@ body {
 
 .bg5 .heading {
     /* align-items: center; */
-    margin: 100px 0px 0px 450px;
+    margin: 25px 0px 0px 450px;
     font-size: 25pt;
     /* border: 10px dashed darkorchid; */
 }
 
+.form {
+    /* border: 10px solid purple; */
+    margin: 0px 0px 0px 280px;
+    /* padding: 10px; */
+    color: chocolate;
+}
+
+.form input{
+    width: 75%;
+    height: 10px;
+    padding: 10px 20px;
+    /* box-sizing: border-box; */
+    font-size: 15pt;
+    
+    background-color: #031638;
+    color: chocolate;
+    border-radius: 6px;
+}
+
 .bg3 {
     background-image: url("https://www.freevector.com/uploads/vector/preview/7712/FreeVector-Plants-Background-Template.jpg");
+    /* background-image: url("https://static.wixstatic.com/media/cf9793_ca63411795eb400e9e71d2d1acc3b742~mv2.jpeg/v1/fill/w_1920,h_850,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/cf9793_ca63411795eb400e9e71d2d1acc3b742~mv2.jpeg"); */
+    /* background-image: url("https://static.wixstatic.com/media/cf9793_ca63411795eb400e9e71d2d1acc3b742~mv2.jpeg/v1/fill/w_206,h_103,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_auto/cf9793_ca63411795eb400e9e71d2d1acc3b742~mv2.jpeg"); */
+    /* opacity: .9; */
 
     height: 100vh; /* 100% of the viewport height */
     width: 98.6vw; /* 100% of the viewport width */
@@ -221,11 +246,13 @@ body {
 .bg3 h1 {
     margin: 50px 0px 100px 575px;
     font-size: 35pt;
+    opacity: 1;
 }
 
 .bg3elements {
     /* border: 5px solid maroon; */
     margin: 0px 0px 0px 100px;
+    opacity: 1;
 }
 
 .bg3_ihp {
@@ -233,29 +260,14 @@ body {
     padding: 10px;
     max-width: 350px;
     margin: 0px 50px 0px 0px;
+    opacity: 1;
 }
 
 .bg3_ihp img {
     margin: 0px 0px 0px 120px;
+    opacity: 1;
 }
 
-.form {
-    /* border: 10px solid purple; */
-    margin: 0px 0px 0px 280px;
-    color: chocolate;
-}
-
-.form input{
-    width: 75%;
-    height: 30px;
-    padding: 20px 20px;
-    /* box-sizing: border-box; */
-    font-size: 20pt;
-    
-    background-color: #031638;
-    color: chocolate;
-    border-radius: 6px;
-}
 
 
 
@@ -267,8 +279,9 @@ body {
     margin: 0;
     padding: 30px 10px; /* Initial padding for perfDash state */
     transition: padding 0.4s; /* Add transition for smoother animation*/
-    border-bottom: 5px solid rgba(0, 0, 0, 0.191);
+    /* border-bottom: 5px solid rgba(0, 0, 0, 0.191); */
     /* box-shadow: #44ad5e; */
+    box-shadow: 0px 5px 10px rgb(0, 0, 0);
     
     /* margin: 0px;
     padding: 10px 10px; 
@@ -298,14 +311,20 @@ body {
     margin-left: 200px;
     /* border: 10px solid rgb(57, 23, 57); */
     /* transition: 0.4s; */
-    transition: width 0.4s, margin-top 0.4s;
+    transition: height 0.4s, margin-top .4s;
 }
 
 #navbar.scrolled #dashboard_logo {
-    width: -20%;  /*Adjusted width for scrolled state/*
+    height: -200px;
+    width: -200px;  /* Adjusted width for scrolled state /*
+    
+    
+    /* width: 300px;
+    height: 75.5px; */
+
     /* width: 224px; */
     /* height: 75.5px; */
-    transition: width 0.4s, height 0.4s, margin-top .4s;
+    transition: height 0.4s, margin-top .4s;
     margin-top: -20px; /* Adjusted margin for scrolled state*/
 }
 
@@ -319,14 +338,14 @@ body {
     margin: 10px;
     padding-top: 0px;
     text-decoration: none;
-    font-size: 18px; /* Initial font size for perfDash state */
+    font-size: 19px; /* Initial font size for perfDash state */
     transition: font-size 0.4s;
-    line-height: 25px;
+    line-height: 10px;
     border-radius: 4px;
 }
   
 #navbar.scrolled a {
-    font-size: 14px; /* Adjusted font size for scrolled state */
+    font-size: 16px; /* Adjusted font size for scrolled state */
 }
   
 /* Links on mouse-over */
@@ -338,7 +357,7 @@ body {
 /* Style the active/current link */
 .dashlinks  {
     /* font: 200; */
-    font-size: 100pt;
+    /* font-size: 100pt; */
     /* background-color: dodgerblue;
     color: white; */
 }
@@ -346,7 +365,7 @@ body {
 /* Display some links to the right */
 #navbar-right {
     display: inline-block;
-    margin: 0px 0px 180px 467px;        
+    margin: 0px 0px 180px 450px;        
 }
 
 
