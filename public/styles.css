@@ -231,9 +231,9 @@ body {
 }
 
 .bg3 {
-    background-image: url("https://www.freevector.com/uploads/vector/preview/7712/FreeVector-Plants-Background-Template.jpg");
+    /* background-image: url("https://www.freevector.com/uploads/vector/preview/7712/FreeVector-Plants-Background-Template.jpg"); */
     /* background-image: url("https://static.wixstatic.com/media/cf9793_ca63411795eb400e9e71d2d1acc3b742~mv2.jpeg/v1/fill/w_1920,h_850,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/cf9793_ca63411795eb400e9e71d2d1acc3b742~mv2.jpeg"); */
-    /* background-image: url("https://static.wixstatic.com/media/cf9793_ca63411795eb400e9e71d2d1acc3b742~mv2.jpeg/v1/fill/w_206,h_103,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_auto/cf9793_ca63411795eb400e9e71d2d1acc3b742~mv2.jpeg"); */
+    background-image: url("https://static.wixstatic.com/media/cf9793_ca63411795eb400e9e71d2d1acc3b742~mv2.jpeg/v1/fill/w_206,h_103,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_auto/cf9793_ca63411795eb400e9e71d2d1acc3b742~mv2.jpeg");
     /* opacity: .9; */
 
     height: 100vh; /* 100% of the viewport height */

@@ -19,8 +19,6 @@ function Dashboard() {
   const closePopup = () => {
     setShowPopup(false);
   };
-      
-
     
     return(
         <div>
